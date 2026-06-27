@@ -18,10 +18,15 @@ COPY models/ ./models/
 COPY rag/ ./rag/
 COPY utils/ ./utils/
 COPY data/ ./data/
-COPY .env.example .env
 
 # Create embeddings directory
 RUN mkdir -p embeddings
+
+# Set environment variables
+ENV LLM_PROVIDER=groq
+ENV EMBEDDING_MODEL_NAME=all-MiniLM-L6-v2
+ENV VECTOR_DB_PROVIDER=chroma
+ENV TOP_K_RESULTS=5
 
 # Expose port 7860 (Hugging Face default)
 EXPOSE 7860
