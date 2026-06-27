@@ -4,7 +4,7 @@ pydantic==2.9.2
 python-dotenv==1.0.1
 
 # Embeddings & vector store
-sentence-transformers==3.2.1
+sentence-transformers>=3.2.1
 chromadb==0.5.18
 rank-bm25==0.2.2
 
@@ -14,8 +14,8 @@ openai==1.55.0
 google-generativeai==0.8.3
 
 # Deep learning (classifier)
-torch==2.5.1
-transformers==4.46.2
+torch>=2.6.0
+transformers>=4.46.2
 
 # Document loading
 pypdf==5.1.0
