@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const API_BASE = "http://localhost:8000";
+const API_BASE = "https://saleemahmeda-ticket-resolution-system.hf.space";
 
 const CONFIDENCE_COLOR = (label) => {
   if (label === "High") return "#22C55E";
