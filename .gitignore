@@ -1,0 +1,8 @@
+# Python 
+__pycache__/ 
+*.pyc 
+.env 
+embeddings/ 
+models/trained_model_v2/ 
+data/tickets_backup.csv 
+node_modules/ 

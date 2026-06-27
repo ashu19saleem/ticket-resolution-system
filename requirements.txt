@@ -1,0 +1,30 @@
+fastapi==0.115.0
+uvicorn[standard]==0.32.0
+pydantic==2.9.2
+python-dotenv==1.0.1
+
+# Embeddings & vector store
+sentence-transformers==3.2.1
+chromadb==0.5.18
+rank-bm25==0.2.2
+
+# LLM providers
+groq==0.13.0
+openai==1.55.0
+google-generativeai==0.8.3
+
+# Deep learning (classifier)
+torch==2.5.1
+transformers==4.46.2
+
+# Document loading
+pypdf==5.1.0
+python-docx==1.1.2
+
+# Data
+pandas==2.2.3
+numpy==1.26.4
+
+# OCR (advanced feature)
+pytesseract==0.3.13
+easyocr==1.7.2
